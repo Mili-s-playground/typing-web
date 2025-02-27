@@ -1,0 +1,13 @@
+{
+  "name": "parcel-deployment",
+  "version": "1.0.0",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "clean": "rm -rf dist",
+    "build": "npm run clean && parcel build"
+  },
+  "devDependencies": {
+    "parcel": "^2.13.3"
+  }
+}

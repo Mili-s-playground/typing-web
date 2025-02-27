@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-weight: normal;
+    color: black;
+    background-color: transparent;
+    list-style-type:  none;
+    border: none;
+    outline: none;
+    font-style: normal;
+    text-decoration: none;
+}
+
+body {
+    background-color: lightgreen;
+    height: 100vb;
+    border: 5px solid black;
+    overflow: hidden;
+}
+#brdMouseId {
+    box-shadow: 0 0 9px 5px yellow;
+    animation: sura-boy 500ms infinite;
+    cursor: none;
+
+}
+@keyframes sura-boy {
+    from {
+        box-shadow: 0 0 9px 5px yellow;
+    }
+    to {
+        box-shadow: 0 0 9px 5px rgba(255, 255, 0, 0.33);
+    }
+}
