@@ -1,2 +1,2 @@
 #container{justify-content:center;align-items:center;height:100vh;display:flex}h1{font-family:Ubuntu,serif;font-size:clamp(1rem,8vw,4rem);font-weight:700;&:after{content:"";vertical-align:text-bottom;width:15px;height:1em;margin-left:2px;animation-name:blink;animation-duration:.9s;animation-iteration-count:infinite;display:inline-block}}@keyframes blink{0%{opacity:1;background-color:#000}25%{background-color:#00f}80%{opacity:1}90%{opacity:0}}
-/*# sourceMappingURL=index.7cfb9e3b.css.map */
+/*# sourceMappingURL=index.5409fad2.css.map */

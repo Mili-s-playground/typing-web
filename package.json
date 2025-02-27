@@ -4,8 +4,8 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "clean": "rm -rf dist",
-    "build": "npm run clean && parcel build"
+    "clean": "rm -rf docs",
+    "build": "npm run clean && parcel build --dist-dir docs"
   },
   "devDependencies": {
     "parcel": "^2.13.3"
