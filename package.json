@@ -5,7 +5,7 @@
   "scripts": {
     "start": "parcel",
     "clean": "rm -rf docs",
-    "build": "npm run clean && parcel build --dist-dir docs"
+    "build": "npm run clean && parcel build --dist-dir docs --public-url /typing-web/"
   },
   "devDependencies": {
     "parcel": "^2.13.3"
